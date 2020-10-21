@@ -1,0 +1,10 @@
+# Describe the branches you would like to merge
+
+on:
+  - pull_request
+  - push  
+tosync:
+  - to: master
+    from: develop
+  - to: dev
+    from: prod
